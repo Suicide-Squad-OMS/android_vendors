@@ -190,6 +190,10 @@ PRODUCT_PACKAGES += \
     SoundRecorder \
     Screencast \
     masquerade
+	
+# OMS Verified
+PRODUCT_PROPERTY_OVERRIDES := \
+    ro.substratum.verified=true	
 
 # Exchange support
 PRODUCT_PACKAGES += \
