@@ -176,8 +176,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AudioFX \
     Launcher3 \
-    ResurrectionOTA \
-    ResurrectionStats \
     Trebuchet \
     MusicFX \
     CMFileManager \
