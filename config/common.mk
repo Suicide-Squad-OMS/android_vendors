@@ -179,7 +179,6 @@ PRODUCT_PACKAGES += \
 # Custom CM packages
 PRODUCT_PACKAGES += \
     AudioFX \
-    Launcher3 \
     Trebuchet \
     MusicFX \
     CMFileManager \
