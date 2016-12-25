@@ -303,6 +303,7 @@ PRODUCT_VERSION = 5.8.0
 PRODUCT_PROPERTY_OVERRIDES += \
  ro.rr.version=$(CM_VERSION) \
  ro.modversion=$(CM_VERSION) \
+ rr.build.type=$(RR_BUILDTYPE) \
  rr.ota.version= $(shell date -u +%Y%m%d) \
  ro.romstats.url=http://resurrectionremix.sourceforge.net/ \
  ro.romstats.name=ResurrectionRemix \
