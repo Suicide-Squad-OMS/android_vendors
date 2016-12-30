@@ -291,9 +291,6 @@ PRODUCT_PACKAGES += \
     su
 endif
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.root_access=1
-
 DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
 PRODUCT_VERSION = 5.8.0
