@@ -317,7 +317,9 @@ ifeq ($(OTA_PACKAGE_SIGNING_KEY),)
         vendor/cm/build/target/product/security/cm-devkey
 endif
 
-CM_DISPLAY_VERSION := $(CM_VERSION)
+
+CM_DISPLAY_VERSION := $(RR_VERSION)
+
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.rr.display.version=$(CM_DISPLAY_VERSION)
