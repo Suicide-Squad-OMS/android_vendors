@@ -303,7 +303,7 @@ DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 PRODUCT_VERSION = 5.8.0
     CM_VERSION := RR-N-OMS-UNOFFICIAL-v$(PRODUCT_VERSION)-$(shell date -u +%Y%m%d)-$(CM_BUILD)
 
-
+	
 PRODUCT_PROPERTY_OVERRIDES += \
  ro.rr.version=$(CM_VERSION) \
  ro.modversion=$(CM_VERSION) \
@@ -314,8 +314,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
  ro.romstats.version=$(PRODUCT_VERSION) \
  ro.romstats.tframe=7 
 
-
 CM_DISPLAY_VERSION := $(RR_VERSION)
+
+PRODUCT_EXTRA_RECOVERY_KEYS += \
+  vendor/cm/build/target/product/security/lineage
 
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.rr.display.version=$(CM_DISPLAY_VERSION)
